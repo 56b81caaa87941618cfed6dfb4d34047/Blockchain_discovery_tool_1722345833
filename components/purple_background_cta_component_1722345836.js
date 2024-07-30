@@ -4,23 +4,23 @@ It is centered on the page and includes a gradient-based title, a subtitle, a pa
 
 Vue.component("purple_background_cta_component_1722345836", {
     template: `
-    <div class="flex">
-        <aside class="w-64 h-screen bg-purple-100 p-5">
+    <div class="flex bg-gray-900">
+        <aside class="w-64 h-screen bg-gray-800 p-5">
             <nav>
                 <ul class="space-y-4">
-                    <li><a href="#" class="text-purple-700 hover:text-purple-900">Home</a></li>
-                    <li><a href="#" class="text-purple-700 hover:text-purple-900">About</a></li>
-                    <li><a href="#" class="text-purple-700 hover:text-purple-900">Contact</a></li>
+                    <li><a href="#" class="text-purple-400 hover:text-purple-300">Home</a></li>
+                    <li><a href="#" class="text-purple-400 hover:text-purple-300">About</a></li>
+                    <li><a href="#" class="text-purple-400 hover:text-purple-300">Contact</a></li>
                 </ul>
             </nav>
         </aside>
         <section id="cta-section-container" class="flex-1">
-            <div id="section-container" class="max-w-6xl mx-auto px-4 sm:px-6 bg-white">
-                <div id="content-container" class="relative px-8 py-12 md:py-20 rounded-3xl overflow-hidden">
+            <div id="section-container" class="max-w-6xl mx-auto px-4 sm:px-6 bg-gray-900">
+                <div id="content-container" class="relative px-8 py-12 md:py-20 rounded-3xl overflow-hidden bg-gradient-to-br from-blue-900 to-purple-900">
                     <!-- Radial gradient -->
                     <div id="radial-gradient" class="absolute flex items-center justify-center top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/3 aspect-square" aria-hidden="true">
-                        <div id="radial-gradient-outer" class="absolute inset-0 translate-z-0 rounded-full blur-120px opacity-70" :class="radialGradientPrimaryStyle"></div>
-                        <div id="radial-gradient-inner" class="absolute w-1/4 h-1/4 translate-z-0 rounded-full blur-40px" :class="radialGradientSecondaryStyle">
+                        <div id="radial-gradient-outer" class="absolute inset-0 translate-z-0 rounded-full blur-120px opacity-70 bg-purple-600"></div>
+                        <div id="radial-gradient-inner" class="absolute w-1/4 h-1/4 translate-z-0 rounded-full blur-40px bg-purple-400">
                         </div>
                     </div>
                     <!-- Blurred shape -->
@@ -32,15 +32,15 @@ Vue.component("purple_background_cta_component_1722345836", {
                     </div>
                     <!-- Content -->
                     <div id="content" class="max-w-3xl mx-auto text-center">
-                        <div id="content-subtitle" class="flex"><div id="content-subtitle-text" class="flex-1 font-medium bg-clip-text pb-3" :class="[transparentTextStyle, contentSubtitleStyle]">Gain a Competitive Edge</div></div>
-                        <div class="flex" id="content-title-container"><h2 id="content-title" class="flex-1 h2 bg-clip-text pb-4" :class="[transparentTextStyle, contentCtaTitleStyle]"> Discover Emerging Blockchains</h2></div>
-                        <div class="flex" id="content-body-container"><p id="content-body" class="flex-1 text-lg mb-8" :class="[contentBodyStyle]">Stay ahead of the curve by exploring the latest blockchain innovations. Our platform helps you uncover promising new networks and cutting-edge use cases.</p></div>
-                        <a id="content-cta-button" href="#0" class="btn transition duration-150 ease-in-out group" :class="[contentCtaButtonPrimaryStyle, contentCtaButtonGradientStyle, contentCtaButtonGradientStyle, contentCtaButtonHoverStyle]">Get Started <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1" :class="contentCtaArrowStyle">-&gt;</span></a>
+                        <div id="content-subtitle" class="flex"><div id="content-subtitle-text" class="flex-1 font-medium text-transparent bg-clip-text pb-3 bg-gradient-to-r from-purple-400 to-blue-300">Gain a Competitive Edge</div></div>
+                        <div class="flex" id="content-title-container"><h2 id="content-title" class="flex-1 h2 text-transparent bg-clip-text pb-4 bg-gradient-to-r from-white via-gray-300 to-white"> Discover Emerging Blockchains</h2></div>
+                        <div class="flex" id="content-body-container"><p id="content-body" class="flex-1 text-lg mb-8 text-gray-300">Stay ahead of the curve by exploring the latest blockchain innovations. Our platform helps you uncover promising new networks and cutting-edge use cases.</p></div>
+                        <a id="content-cta-button" href="#0" class="btn transition duration-150 ease-in-out group bg-gradient-to-r from-purple-500 to-blue-500 text-white px-6 py-3 rounded-lg hover:from-purple-600 hover:to-blue-600">Get Started <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1 text-purple-200">-&gt;</span></a>
                     </div>
                 </div>
             </div>
         </section>
-    </div>`,
+    </div>
         data() {
             return {
                 expanded: false, 
