@@ -55,7 +55,17 @@ Vue.component("purple_feature_grid_component_1722345836", {
             </div>
             <div class="flex" id="feature-6-description-container"><p id="feature-6-description" class="flex-1 text-sm" :class="textPrimaryStyle">Tailor your experience with customizable dashboards that display the information most relevant to your needs. Visualize data in the way that works best for you.</p></div>
         </div>
-    </div>`,
+    </div>
+    <footer class="bg-gray-800 text-white p-5 mt-8">
+        <div class="container mx-auto">
+            <nav class="flex justify-center space-x-6">
+                <a href="#" class="hover:text-gray-300">Home</a>
+                <a href="#" class="hover:text-gray-300">About</a>
+                <a href="#" class="hover:text-gray-300">Contact</a>
+            </nav>
+        </div>
+    </footer>
+`,
         data() {
             return {
                 expanded: false, 
