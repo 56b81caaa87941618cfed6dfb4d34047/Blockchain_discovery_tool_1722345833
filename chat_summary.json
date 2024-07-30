@@ -48,5 +48,11 @@
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the footer component to be fixed at the bottom of the user's viewport on all pages, or should it scroll away with content?\", \"option1\": \"Fixed at the bottom\", \"option2\": \"Scrolls away with content\"}, {\"question 2\": \"Do you have specific designs or themes in mind for the footer's appearance, such as color scheme and font style?\", \"option1\": \"Yes, I will provide specific design guidelines\", \"option2\": \"No, please follow the app's existing design theme\"}], \"input_token_count\": 267, \"output_token_count\": 123, \"time_taken\": \"0:00:03.844006\"}",
         "timestamp": "30072024132843",
         "message_id": "guest30072024132837"
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"A search bar in the header for quick blockchain lookup\", \"checked\": true}, {\"feature\": \"Dynamic 'Recently Added Blockchains' section on the homepage\", \"checked\": true}, {\"feature\": \"User account creation and login for personalized experiences\", \"checked\": false}, {\"feature\": \"Subscription option for receiving updates on new blockchains\", \"checked\": true}, {\"feature\": \"Interactive blockchain market trends graphs\", \"checked\": false}, {\"feature\": \"Feedback form for user suggestions and reports\", \"checked\": true}], \"input_token_count\": 221, \"output_token_count\": 111, \"time_taken\": \"0:00:06.974993\"}",
+        "timestamp": "30072024132846",
+        "message_id": "guest30072024132837"
     }
 ]
