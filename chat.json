@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the sidebar to be fixed or collapsible?\", \"option1\": \"Fixed on the side\", \"option2\": \"Collapsible with a button\"}, {\"question 2\": \"Should the sidebar be on the left or right side of the screen?\", \"option1\": \"Left side of the screen\", \"option2\": \"Right side of the screen\"}], \"input_token_count\": 266, \"output_token_count\": 89, \"time_taken\": \"0:00:03.439549\"}",
+        "message_id": "guest30072024132438",
+        "timestamp": "30072024132444",
+        "component_file_name": "purple_background_cta_component_1722345836",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "I will create a sidebar and add the navlinks home, about, and contact.",
         "message_id": "guest30072024132438",
