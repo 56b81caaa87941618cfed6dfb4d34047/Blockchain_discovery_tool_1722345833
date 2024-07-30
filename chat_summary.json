@@ -24,5 +24,11 @@
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the sidebar to be fixed or collapsible?\", \"option1\": \"Fixed on the side\", \"option2\": \"Collapsible with a button\"}, {\"question 2\": \"Should the sidebar be on the left or right side of the screen?\", \"option1\": \"Left side of the screen\", \"option2\": \"Right side of the screen\"}], \"input_token_count\": 266, \"output_token_count\": 89, \"time_taken\": \"0:00:03.439549\"}",
         "timestamp": "30072024132444",
         "message_id": "guest30072024132438"
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Collapsible sidebar for better screen real estate utilization\", \"checked\": true}, {\"feature\": \"Dynamic loading of content without refreshing the page (SPA behavior)\", \"checked\": false}, {\"feature\": \"Footer with links to privacy policy, terms of service, and help\", \"checked\": false}, {\"feature\": \"Search functionality in the sidebar to quickly find blockchains by name\", \"checked\": true}, {\"feature\": \"User profile access link in the sidebar for account management and settings\", \"checked\": true}, {\"feature\": \"Dark/Light mode toggle in the sidebar for user preference\", \"checked\": false}], \"input_token_count\": 220, \"output_token_count\": 129, \"time_taken\": \"0:00:07.124810\"}",
+        "timestamp": "30072024132447",
+        "message_id": "guest30072024132438"
     }
 ]
